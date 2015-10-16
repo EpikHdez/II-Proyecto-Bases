@@ -71,3 +71,27 @@ BEGIN
 	END CATCH
 END
 GO
+
+CREATE PROCEDURE FASP_InsertarMovimientoSaldoNoAplicado
+	@pFecha DATE = NULL,
+	@pAmortizacion INT = 0,
+	@pIntereses INT = 0,
+
+AS
+BEGIN
+	BEGIN TRY
+		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+		BEGIN TRANSACTION;
+			INSERT INTO dbo.MovimientoSaldoNoAplicado(Fecha, Amortizacion, Interes)
+			VALUES (@pFecha, @pAmortizacion, @pInteres)
+		COMMIT TRANSACTION;
+	END TRY
+	BEGIN CATCH
+		IF @@TRANCOUNT > 0
+			ROLLBACK;
+
+		RETURN @ERROR * -1;
+	END
+END
+GO
+
