@@ -90,8 +90,75 @@ BEGIN
 		IF @@TRANCOUNT > 0
 			ROLLBACK;
 
-		RETURN @ERROR * -1;
-	END
+		RETURN @@ERROR * -1;
+	END CATCH
 END
 GO
 
+CREATE PROCEDURE FASP_InsertarMovimientoSaldoAplicado
+	@pFecha DATE = NULL,
+	@pAmortizacion INT = 0,
+	@pInteres INT = 0,
+
+AS
+BEGIN
+	BEGIN TRY
+		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+		BEGIN TRANSACTION;
+			INSERT INTO dbo.MovimientoSaldoAplicado(Fecha, Amortizacion, Interes)
+			VALUES(@pFecha, @pAmortizacion, @pIntereses)
+		COMMIT TRANSACTION;
+	END TRY
+	BEGIN CATCH
+		IF @@TRANCOUNT > 0
+			ROLLBACK;
+
+		RETURN @@ERROR * -1;
+	END CATCH
+END
+GO
+
+CREATE PROCEDURE FASP_TipoMovimientoInteresDiario
+	@pNombre VARCHAR(100),
+
+AS
+BEGIN
+	BEGIN TRY
+		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+		BEGIN TRANSACTION;
+			INSERT INTO dbo.TipoMovimientoInteresDiario(Nombre)
+			VALUES(@pNombre)
+		COMMIT TRANSACTION;
+	END TRY
+	BEGIN CATCH
+		IF @@TRANCOUNT > 0
+			ROLLBACK;
+
+		RETURN @@ERROR * -1;
+	END CATCH
+END
+GO
+
+CREATE PROCEDURE FASP_TipoPrestamo
+	@pNombre VARCHAR(100) = NULL,
+	@pTasa INT = 0,
+	@pPlazo INT = 0,
+	@pPeriodo INT = 0;
+
+AS
+BEGIN
+	BEGIN TRY
+		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+		BEGIN TRANSACTION;
+			INSERT INTO dbo.TipoPrestamo(Nombre, Tasa, Plazo, Periodo)
+			VALUES (@pNombre, @pTasa, @pPlazo, @pPeriodo)
+		COMMIT TRANSACTION;
+	END TRY
+	BEGIN CATCH
+		IF @@TRANCOUNT > 0
+			ROLLBACK
+
+		RETURN @@ERROR * -1;
+	END CATCH
+END
+GO
