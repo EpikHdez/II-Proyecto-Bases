@@ -83,3 +83,40 @@ BEGIN
 END
 GO
 
+CREATE PROCEDURE FASP_ActualizarMovimientoSaldoNoAplicado
+	@pID INT = 0,
+	@pFecha DATE = null,
+	@pAmortizacion INT = 0,
+	@pInteres INT = 0
+
+AS
+BEGIN
+	BEGIN TRY
+		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+		BEGIN TRANSACTION
+			UPDATE dbo.MovimientoSaldoNoAplicado
+			SET Fecha = @pFecha,
+			Amortizacion = @pAmortizacion,
+			Intereses = @pInteres
+			WHERE ID = @pID;
+		COMMIT TRANSACTION
+	END TRY
+	BEGIN CATCH
+		IF @@TRANCOUNT > 0
+			ROLLBACK;
+
+		RETURN @@ERROR * - 1;
+	END CATCH
+END
+GO
+
+CREATE PROCEDURE FASP_ActualizarMovimientoSaldoAplicado
+	@pID INT = 0,
+	@pFecha DATE = 0,
+	@pAmortizacion INT = 0,
+	@pInteres INT = 0
+
+AS
+BEGIN
+	BEGIN TRY
+		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
