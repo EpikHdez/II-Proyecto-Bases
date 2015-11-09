@@ -120,3 +120,68 @@ AS
 BEGIN
 	BEGIN TRY
 		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+		BEGIN TRANSACTION
+			UPDATE dbo.MovimientoSaldoAplicado
+			SET Fecha = @pFecha,
+			Amortizacion = @pAmortizacion,
+			Interes = @pInteres
+			WHERE ID = @pID;
+		COMMIT TRANSACTION
+	BEGIN CATCH
+		IF @@TRANCOUNT > 0
+			ROLLBACK;
+
+		RETURN @@ERROR * -1;
+	END CATCH
+END
+GO
+
+CREATE PROCEDURE FASP_ActualizarTipoMovimientoInteresDiario
+	@pID INT = 0,
+	@pNombre VARCHAR(100) = null
+AS
+BEGIN
+	BEGIN TRY
+		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+		BEGIN TRANSACTION
+			UPDATE dbo.TipoMovimientoInteresDiario
+			SET Nombre = @pNombre
+			WHERE ID = @pID;
+		COMMIT TRANSACTION
+	END TRY
+	BEGIN CATCH
+		IF @@TRANCOUNT > 0
+			ROLLBACK;
+		RETURN @@ERROR * -1;
+	END CATCH
+END
+GO
+
+CREATE PROCEDURE FASP_ActualizarTipoPrestamo
+	@pID INT = 0,
+	@pNombre VARCHAR(100) = 0,
+	@pTasa INT = 0,
+	@pPlazo INT = 0,
+	@pPeriodo INT = 0
+
+AS
+BEGIN
+	BEGIN TRY
+		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+		BEGIN TRANSACTION
+			UPDATE dbo.TipoPrestamo
+			SET Nombre = @pNombre,
+			Tasa = @pTasa,
+			Plazo = @pPlazo,
+			Periodo = @pPeriodo
+			WHERE ID = @pID;
+		COMMIT TRANSACTION
+	END TRY
+	BEGIN CATCH
+		IF @@TRANCOUNT > 0
+			ROLLBACK;
+		RETURN @@ERROR * -1;
+	END CATCH
+END
+GO
+
