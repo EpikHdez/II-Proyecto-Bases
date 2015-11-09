@@ -23,6 +23,24 @@ PRIMARY KEY (ID)
 );
 GO
 
+CREATE TABLE Prestamos (
+ID INT IDENTITY(1, 1) NOT NULL,
+FK_Deudor INT,
+FK_TipoPrestamo INT,
+MontoOriginal INT,
+Cuota INT,
+PlazoRestante INT,
+SaldoNoAplicado INT,
+SaldoAplicado INT,
+InteresAcumuladoMensual INT,
+DiaCorte INT,
+Activo BIT,
+PRIMARY KEY(ID),
+FOREIGN KEY (FK_Deudor) REFERENCES Deudores (ID),
+FOREIGN KEY (FK_TipoPrestamo) REFERENCES TipoPrestamo (ID)
+);
+GO
+
 CREATE TABLE TipoMovimientoInteresDiario (
 ID INT IDENTITY(1, 1) NOT NULL,
 Nombre VARCHAR(100),
@@ -34,21 +52,25 @@ GO
 CREATE TABLE MovimientoInteresDiario (
 ID INT IDENTITY(1, 1) NOT NULL,
 FK_TipoMovimientoInteresDiario INT,
+FK_Prestamo INT,
 Fecha DATE,
 Monto INT,
 Activo BIT,
 PRIMARY KEY (ID),
-FOREIGN KEY (FK_TipoMovimientoInteresDiario) REFERENCES TipoMovimientoInteresDiario (ID)
+FOREIGN KEY (FK_TipoMovimientoInteresDiario) REFERENCES TipoMovimientoInteresDiario (ID),
+FOREIGN KEY (FK_Prestamo) REFERENCES Prestamos (ID)
 );
 GO
 
 CREATE TABLE MovimientoSaldoNoAplicado (
 ID INT IDENTITY(1, 1) NOT NULL,
+FK_Prestamo INT,
 Fecha DATE,
 Amortizacion INT,
 Intereses INT,
 Activo BIT,
 PRIMARY KEY (ID),
+FOREIGN KEY (FK_Prestamo) REFERENCES Prestamos (ID)
 );
 GO
 
@@ -63,34 +85,12 @@ FOREIGN KEY (FK_MovimientoSaldoNoAplicado) REFERENCES MovimientoSaldoNoAplicado 
 
 CREATE TABLE MovimientoSaldoAplicado (
 ID INT IDENTITY(1, 1) NOT NULL,
+FK_Prestamo INT,
 Fecha DATE,
 Amortizacion INT,
 Intereses INT,
 Activo BIT,
 PRIMARY KEY (ID),
-);
-GO
-
-CREATE TABLE Prestamos (
-ID INT IDENTITY(1, 1) NOT NULL,
-FK_Deudor INT,
-FK_TipoPrestamo INT,
-FK_MovimientoInteresDiario INT,
-FK_MovimientoSaldoNoAplicado INT,
-FK_MovimientoSaldoAplicado INT,
-MontoOriginal INT,
-Cuota INT,
-PlazoRestante INT,
-SaldoNoAplicado INT,
-SaldoAplicado INT,
-InteresAcumuladoMensual INT,
-DiaCorte INT,
-Activo BIT,
-PRIMARY KEY(ID),
-FOREIGN KEY (FK_Deudor) REFERENCES Deudores (ID),
-FOREIGN KEY (FK_TipoPrestamo) REFERENCES TipoPrestamo (ID),
-FOREIGN KEY (FK_MovimientoInteresDiario) REFERENCES MovimientoInteresDiario (ID),
-FOREIGN KEY (FK_MovimientoSaldoNoAplicado) REFERENCES MovimientoSaldoNoAplicado (ID),
-FOREIGN KEY (FK_MovimientoSaldoAplicado) REFERENCES MovimientoSaldoAplicado (ID)
+FOREIGN KEY (FK_Prestamo) REFERENCES Prestamos (ID)
 );
 GO
