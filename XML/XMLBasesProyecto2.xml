@@ -1,106 +1,106 @@
 <?xml version="1.0"?>
 <ROOT>
-        <Deudores>
-                <Persona Nombre="Maciel Perez Perez" Cedula="15001091"/>
-                <Persona Nombre="Aaron Mendez Ugalde" Cedula="59514623"/>
-                <Persona Nombre="Victor Chaves Castro" Cedula="62193005"/>
-                <Persona Nombre="Farlen Rodríguez Ugalde" Cedula="48189767"/>
-                <Persona Nombre="Eylin Elizondo Rivera" Cedula="75532571"/>
-                <Persona Nombre="Norris Rivera Gonzales" Cedula="78192986"/>
-                <Persona Nombre="Stefanny Corella Chaves" Cedula="74815395"/>
-                <Persona Nombre="Ivan Orozco Arce" Cedula="73070463"/>
-                <Persona Nombre="Alexander Castro Mendez" Cedula="35098439"/>
-                <Persona Nombre="Carlos Perez Chaves" Cedula="56724307"/>
-                <Persona Nombre="Sandra Rivera Araya" Cedula="72483346"/>
-                <Persona Nombre="Rover Monestel Orozco" Cedula="70529793"/>
-                <Persona Nombre="Bryan Ugarte Monestel" Cedula="34069845"/>
-                <Persona Nombre="Evar Perez Castro" Cedula="65017898"/>
-                <Persona Nombre="Ivan Castilla Vives" Cedula="38078709"/>
-                <Persona Nombre="Evar Mendez Arce" Cedula="18580666"/>
-                <Persona Nombre="Tony Corella Lara" Cedula="59457490"/>
-                <Persona Nombre="Katherine Mendez Lara" Cedula="76965736"/>
-                <Persona Nombre="Xinia Ugarte Castilla" Cedula="29954880"/>
-                <Persona Nombre="Stefanny Monestel Lara" Cedula="62224047"/>
-                <Persona Nombre="Fernando Orozco Castilla" Cedula="77419430"/>
-                <Persona Nombre="Tony Castilla Orozco" Cedula="29463464"/>
-                <Persona Nombre="Alan Vives Castro" Cedula="46540425"/>
-                <Persona Nombre="German Araya Mendez" Cedula="14817396"/>
-                <Persona Nombre="Belen Chaves Arce" Cedula="69316350"/>
-                <Persona Nombre="Fernando Chaves Arce" Cedula="49216657"/>
-                <Persona Nombre="Tony Ugalde Orozco" Cedula="43689025"/>
-                <Persona Nombre="Kevin Chaves Rodríguez" Cedula="46448280"/>
-                <Persona Nombre="Natalia Mendez Ugarte" Cedula="28254056"/>
-                <Persona Nombre="Xinia Castilla Lara" Cedula="60028566"/>
-                <Persona Nombre="Bryan Castro Vives" Cedula="47340011"/>
-                <Persona Nombre="Iliana Gonzales Monestel" Cedula="42283707"/>
-                <Persona Nombre="Jose Castro Castilla" Cedula="10456875"/>
-                <Persona Nombre="Leonardo Ugalde Mendez" Cedula="69548255"/>
-                <Persona Nombre="Victor Orozco Araya" Cedula="50929374"/>
-                <Persona Nombre="Asdrubal Castilla Castilla" Cedula="79331718"/>
-                <Persona Nombre="Maciel Vives Arce" Cedula="78899512"/>
-                <Persona Nombre="Juan Castilla Solorzano" Cedula="78118241"/>
-                <Persona Nombre="Ivan Araya Perez" Cedula="79103495"/>
-                <Persona Nombre="Karla Alvarado Monestel" Cedula="22924358"/>
-                <Persona Nombre="Victor Chaves Solorzano" Cedula="33190261"/>
-                <Persona Nombre="Asdrubal Solorzano Rivera" Cedula="34246642"/>
-                <Persona Nombre="Daniel Arce Castilla" Cedula="49011780"/>
-                <Persona Nombre="Katia Rivera Vives" Cedula="46159233"/>
-                <Persona Nombre="Ana Ugalde Corella" Cedula="17712253"/>
-                <Persona Nombre="Maria Ugalde Chaves" Cedula="20914077"/>
-                <Persona Nombre="Jose Orozco Alvarado" Cedula="59158772"/>
-                <Persona Nombre="Stefanny Corella Alvarado" Cedula="58566836"/>
-                <Persona Nombre="Sandi Rodríguez Ugalde" Cedula="62030227"/>
-                <Persona Nombre="Maria Orozco Monestel" Cedula="32228960"/>
-                <Persona Nombre="Randall Lara Araya" Cedula="54854606"/>
-                <Persona Nombre="Maria Gonzales Ugalde" Cedula="75590886"/>
-                <Persona Nombre="Juan Rivera Vives" Cedula="52464143"/>
-                <Persona Nombre="Victor Rodríguez Castilla" Cedula="75616269"/>
-                <Persona Nombre="Bryan Castro Arce" Cedula="76438143"/>
-                <Persona Nombre="Evar Vives Corella" Cedula="41289510"/>
-                <Persona Nombre="Katia Corella Perez" Cedula="45940519"/>
-                <Persona Nombre="Lizeth Rodríguez Rodríguez" Cedula="19061611"/>
-                <Persona Nombre="Farlen Gonzales Solorzano" Cedula="41180686"/>
-                <Persona Nombre="Natalia Perez Ugalde" Cedula="78869866"/>
-                <Persona Nombre="Norris Rivera Rivera" Cedula="57661416"/>
-                <Persona Nombre="Victoria Ugalde Orozco" Cedula="63657987"/>
-                <Persona Nombre="Juan Castilla Vives" Cedula="51716176"/>
-                <Persona Nombre="Leonardo Vives Monestel" Cedula="78480703"/>
-                <Persona Nombre="Juan Elizondo Araya" Cedula="31784236"/>
-                <Persona Nombre="Andres Monestel Mendez" Cedula="40288378"/>
-                <Persona Nombre="Lizeth Ugalde Orozco" Cedula="52493235"/>
-                <Persona Nombre="Laura Alvarado Rivera" Cedula="73774680"/>
-                <Persona Nombre="Norris Solorzano Ugalde" Cedula="53439065"/>
-                <Persona Nombre="Lizeth Elizondo Mendez" Cedula="39487367"/>
-                <Persona Nombre="Rover Araya Vives" Cedula="47982956"/>
-                <Persona Nombre="Carlos Monestel Chaves" Cedula="73177698"/>
-                <Persona Nombre="Fernando Solorzano Lara" Cedula="60278581"/>
-                <Persona Nombre="Carlos Monestel Castilla" Cedula="70714163"/>
-                <Persona Nombre="Geovanny Ugalde Chaves" Cedula="64379443"/>
-                <Persona Nombre="Andres Gonzales Alvarado" Cedula="61322768"/>
-                <Persona Nombre="Jose Castro Rodríguez" Cedula="57605208"/>
-                <Persona Nombre="Stefanny Castro Gonzales" Cedula="54318558"/>
-                <Persona Nombre="Laura Mendez Ugarte" Cedula="40982641"/>
-                <Persona Nombre="Maciel Castilla Gonzales" Cedula="14523486"/>
-                <Persona Nombre="Carlos Solorzano Corella" Cedula="49661386"/>
-                <Persona Nombre="Farlen Ugalde Ugalde" Cedula="72047267"/>
-                <Persona Nombre="Karla Gonzales Araya" Cedula="50720225"/>
-                <Persona Nombre="Maciel Ugalde Rivera" Cedula="29072755"/>
-                <Persona Nombre="Marin Arce Rodríguez" Cedula="49809510"/>
-                <Persona Nombre="Laura Monestel Gonzales" Cedula="43992493"/>
-                <Persona Nombre="Xinia Castilla Mendez" Cedula="47163054"/>
-                <Persona Nombre="Katia Chaves Elizondo" Cedula="64092963"/>
-                <Persona Nombre="Norris Chaves Arce" Cedula="21894967"/>
-                <Persona Nombre="Kevin Castro Gonzales" Cedula="69421598"/>
-                <Persona Nombre="Laura Araya Solorzano" Cedula="72383995"/>
-                <Persona Nombre="Leonardo Araya Mendez" Cedula="74374710"/>
-                <Persona Nombre="Farlen Castro Alvarado" Cedula="68596762"/>
-                <Persona Nombre="Jose Castilla Perez" Cedula="75633277"/>
-                <Persona Nombre="Karla Rodríguez Mendez" Cedula="47402233"/>
-                <Persona Nombre="Jose Lara Ugalde" Cedula="63131878"/>
-                <Persona Nombre="Johana Ugalde Araya" Cedula="63420796"/>
-                <Persona Nombre="Juan Ugarte Mendez" Cedula="61819499"/>
-                <Persona Nombre="Sandra Castilla Solorzano" Cedula="60464760"/>
-                <Persona Nombre="Iliana Perez Arce" Cedula="39143097"/>
+    <Deudores>
+        <Persona Nombre="Maciel Perez Perez" Cedula="15001091"/>
+        <Persona Nombre="Aaron Mendez Ugalde" Cedula="59514623"/>
+        <Persona Nombre="Victor Chaves Castro" Cedula="62193005"/>
+        <Persona Nombre="Farlen Rodríguez Ugalde" Cedula="48189767"/>
+        <Persona Nombre="Eylin Elizondo Rivera" Cedula="75532571"/>
+        <Persona Nombre="Norris Rivera Gonzales" Cedula="78192986"/>
+        <Persona Nombre="Stefanny Corella Chaves" Cedula="74815395"/>
+        <Persona Nombre="Ivan Orozco Arce" Cedula="73070463"/>
+        <Persona Nombre="Alexander Castro Mendez" Cedula="35098439"/>
+        <Persona Nombre="Carlos Perez Chaves" Cedula="56724307"/>
+        <Persona Nombre="Sandra Rivera Araya" Cedula="72483346"/>
+        <Persona Nombre="Rover Monestel Orozco" Cedula="70529793"/>
+        <Persona Nombre="Bryan Ugarte Monestel" Cedula="34069845"/>
+        <Persona Nombre="Evar Perez Castro" Cedula="65017898"/>
+        <Persona Nombre="Ivan Castilla Vives" Cedula="38078709"/>
+        <Persona Nombre="Evar Mendez Arce" Cedula="18580666"/>
+        <Persona Nombre="Tony Corella Lara" Cedula="59457490"/>
+        <Persona Nombre="Katherine Mendez Lara" Cedula="76965736"/>
+        <Persona Nombre="Xinia Ugarte Castilla" Cedula="29954880"/>
+        <Persona Nombre="Stefanny Monestel Lara" Cedula="62224047"/>
+        <Persona Nombre="Fernando Orozco Castilla" Cedula="77419430"/>
+        <Persona Nombre="Tony Castilla Orozco" Cedula="29463464"/>
+        <Persona Nombre="Alan Vives Castro" Cedula="46540425"/>
+        <Persona Nombre="German Araya Mendez" Cedula="14817396"/>
+        <Persona Nombre="Belen Chaves Arce" Cedula="69316350"/>
+        <Persona Nombre="Fernando Chaves Arce" Cedula="49216657"/>
+        <Persona Nombre="Tony Ugalde Orozco" Cedula="43689025"/>
+        <Persona Nombre="Kevin Chaves Rodríguez" Cedula="46448280"/>
+        <Persona Nombre="Natalia Mendez Ugarte" Cedula="28254056"/>
+        <Persona Nombre="Xinia Castilla Lara" Cedula="60028566"/>
+        <Persona Nombre="Bryan Castro Vives" Cedula="47340011"/>
+        <Persona Nombre="Iliana Gonzales Monestel" Cedula="42283707"/>
+        <Persona Nombre="Jose Castro Castilla" Cedula="10456875"/>
+        <Persona Nombre="Leonardo Ugalde Mendez" Cedula="69548255"/>
+        <Persona Nombre="Victor Orozco Araya" Cedula="50929374"/>
+        <Persona Nombre="Asdrubal Castilla Castilla" Cedula="79331718"/>
+        <Persona Nombre="Maciel Vives Arce" Cedula="78899512"/>
+        <Persona Nombre="Juan Castilla Solorzano" Cedula="78118241"/>
+        <Persona Nombre="Ivan Araya Perez" Cedula="79103495"/>
+        <Persona Nombre="Karla Alvarado Monestel" Cedula="22924358"/>
+        <Persona Nombre="Victor Chaves Solorzano" Cedula="33190261"/>
+        <Persona Nombre="Asdrubal Solorzano Rivera" Cedula="34246642"/>
+        <Persona Nombre="Daniel Arce Castilla" Cedula="49011780"/>
+        <Persona Nombre="Katia Rivera Vives" Cedula="46159233"/>
+        <Persona Nombre="Ana Ugalde Corella" Cedula="17712253"/>
+        <Persona Nombre="Maria Ugalde Chaves" Cedula="20914077"/>
+        <Persona Nombre="Jose Orozco Alvarado" Cedula="59158772"/>
+        <Persona Nombre="Stefanny Corella Alvarado" Cedula="58566836"/>
+        <Persona Nombre="Sandi Rodríguez Ugalde" Cedula="62030227"/>
+        <Persona Nombre="Maria Orozco Monestel" Cedula="32228960"/>
+        <Persona Nombre="Randall Lara Araya" Cedula="54854606"/>
+        <Persona Nombre="Maria Gonzales Ugalde" Cedula="75590886"/>
+        <Persona Nombre="Juan Rivera Vives" Cedula="52464143"/>
+        <Persona Nombre="Victor Rodríguez Castilla" Cedula="75616269"/>
+        <Persona Nombre="Bryan Castro Arce" Cedula="76438143"/>
+        <Persona Nombre="Evar Vives Corella" Cedula="41289510"/>
+        <Persona Nombre="Katia Corella Perez" Cedula="45940519"/>
+        <Persona Nombre="Lizeth Rodríguez Rodríguez" Cedula="19061611"/>
+        <Persona Nombre="Farlen Gonzales Solorzano" Cedula="41180686"/>
+        <Persona Nombre="Natalia Perez Ugalde" Cedula="78869866"/>
+        <Persona Nombre="Norris Rivera Rivera" Cedula="57661416"/>
+        <Persona Nombre="Victoria Ugalde Orozco" Cedula="63657987"/>
+        <Persona Nombre="Juan Castilla Vives" Cedula="51716176"/>
+        <Persona Nombre="Leonardo Vives Monestel" Cedula="78480703"/>
+        <Persona Nombre="Juan Elizondo Araya" Cedula="31784236"/>
+        <Persona Nombre="Andres Monestel Mendez" Cedula="40288378"/>
+        <Persona Nombre="Lizeth Ugalde Orozco" Cedula="52493235"/>
+        <Persona Nombre="Laura Alvarado Rivera" Cedula="73774680"/>
+        <Persona Nombre="Norris Solorzano Ugalde" Cedula="53439065"/>
+        <Persona Nombre="Lizeth Elizondo Mendez" Cedula="39487367"/>
+        <Persona Nombre="Rover Araya Vives" Cedula="47982956"/>
+        <Persona Nombre="Carlos Monestel Chaves" Cedula="73177698"/>
+        <Persona Nombre="Fernando Solorzano Lara" Cedula="60278581"/>
+        <Persona Nombre="Carlos Monestel Castilla" Cedula="70714163"/>
+        <Persona Nombre="Geovanny Ugalde Chaves" Cedula="64379443"/>
+        <Persona Nombre="Andres Gonzales Alvarado" Cedula="61322768"/>
+        <Persona Nombre="Jose Castro Rodríguez" Cedula="57605208"/>
+        <Persona Nombre="Stefanny Castro Gonzales" Cedula="54318558"/>
+        <Persona Nombre="Laura Mendez Ugarte" Cedula="40982641"/>
+        <Persona Nombre="Maciel Castilla Gonzales" Cedula="14523486"/>
+        <Persona Nombre="Carlos Solorzano Corella" Cedula="49661386"/>
+        <Persona Nombre="Farlen Ugalde Ugalde" Cedula="72047267"/>
+        <Persona Nombre="Karla Gonzales Araya" Cedula="50720225"/>
+        <Persona Nombre="Maciel Ugalde Rivera" Cedula="29072755"/>
+        <Persona Nombre="Marin Arce Rodríguez" Cedula="49809510"/>
+        <Persona Nombre="Laura Monestel Gonzales" Cedula="43992493"/>
+        <Persona Nombre="Xinia Castilla Mendez" Cedula="47163054"/>
+        <Persona Nombre="Katia Chaves Elizondo" Cedula="64092963"/>
+        <Persona Nombre="Norris Chaves Arce" Cedula="21894967"/>
+        <Persona Nombre="Kevin Castro Gonzales" Cedula="69421598"/>
+        <Persona Nombre="Laura Araya Solorzano" Cedula="72383995"/>
+        <Persona Nombre="Leonardo Araya Mendez" Cedula="74374710"/>
+        <Persona Nombre="Farlen Castro Alvarado" Cedula="68596762"/>
+        <Persona Nombre="Jose Castilla Perez" Cedula="75633277"/>
+        <Persona Nombre="Karla Rodríguez Mendez" Cedula="47402233"/>
+        <Persona Nombre="Jose Lara Ugalde" Cedula="63131878"/>
+        <Persona Nombre="Johana Ugalde Araya" Cedula="63420796"/>
+        <Persona Nombre="Juan Ugarte Mendez" Cedula="61819499"/>
+        <Persona Nombre="Sandra Castilla Solorzano" Cedula="60464760"/>
+        <Persona Nombre="Iliana Perez Arce" Cedula="39143097"/>
 	</Deudores>
 	<TipPrestamo>
 		<TPrestamo Nombre="Corto Plazo" TasaPorcentual="8.33" Plazo="1" ID="1"/>
@@ -117,106 +117,106 @@
 		<Medio Tipo="Tarjeta de Credito"/>
 	</MedioPago>
 	<Prestamos>
-                <Prestamo MontoOriginal="4918904" Cuota="664019" DiaCorte="25" DiaPaga="14" FechaInicio="10-15-2013" NombrePersona="Maciel Perez Perez" IDTipPrestamo="1"/>
-                <Prestamo MontoOriginal="4844327" Cuota="653952" DiaCorte="22" DiaPaga="16" FechaInicio="04-16-2005" NombrePersona="Aaron Mendez Ugalde" IDTipPrestamo="1"/>
-                <Prestamo MontoOriginal="1752333" Cuota="15361" DiaCorte="24" DiaPaga="20" FechaInicio="11-02-2008" NombrePersona="Victor Chaves Castro" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="2572191" Cuota="22548" DiaCorte="27" DiaPaga="12" FechaInicio="06-21-2014" NombrePersona="Farlen Rodríguez Ugalde" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="1981264" Cuota="132162" DiaCorte="21" DiaPaga="5" FechaInicio="08-18-2015" NombrePersona="Eylin Elizondo Rivera" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="4277177" Cuota="285314" DiaCorte="23" DiaPaga="19" FechaInicio="03-12-2011" NombrePersona="Norris Rivera Gonzales" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="10321434" Cuota="688504" DiaCorte="23" DiaPaga="15" FechaInicio="12-21-2015" NombrePersona="Stefanny Corella Chaves" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="4278274" Cuota="285387" DiaCorte="26" DiaPaga="11" FechaInicio="06-01-2010" NombrePersona="Ivan Orozco Arce" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="9489984" Cuota="83190" DiaCorte="27" DiaPaga="1" FechaInicio="03-23-2007" NombrePersona="Alexander Castro Mendez" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="6247057" Cuota="27153" DiaCorte="27" DiaPaga="4" FechaInicio="03-10-2007" NombrePersona="Carlos Perez Chaves" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="7533055" Cuota="32743" DiaCorte="22" DiaPaga="6" FechaInicio="11-22-2009" NombrePersona="Sandra Rivera Araya" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="6558243" Cuota="885319" DiaCorte="27" DiaPaga="7" FechaInicio="08-12-2009" NombrePersona="Rover Monestel Orozco" IDTipPrestamo="1"/>
-                <Prestamo MontoOriginal="9970215" Cuota="665075" DiaCorte="27" DiaPaga="17" FechaInicio="06-13-2009" NombrePersona="Bryan Ugarte Monestel" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="2167729" Cuota="292629" DiaCorte="28" DiaPaga="19" FechaInicio="06-22-2005" NombrePersona="Evar Perez Castro" IDTipPrestamo="1"/>
-                <Prestamo MontoOriginal="1696375" Cuota="7373" DiaCorte="25" DiaPaga="7" FechaInicio="07-19-2015" NombrePersona="Ivan Castilla Vives" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="9508281" Cuota="83350" DiaCorte="26" DiaPaga="16" FechaInicio="03-01-2007" NombrePersona="Evar Mendez Arce" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="7148814" Cuota="62667" DiaCorte="25" DiaPaga="16" FechaInicio="02-11-2010" NombrePersona="Tony Corella Lara" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="4488707" Cuota="119623" DiaCorte="22" DiaPaga="6" FechaInicio="01-25-2009" NombrePersona="Katherine Mendez Lara" IDTipPrestamo="4"/>
-                <Prestamo MontoOriginal="1995498" Cuota="133112" DiaCorte="24" DiaPaga="4" FechaInicio="02-12-2014" NombrePersona="Xinia Ugarte Castilla" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="10806928" Cuota="94735" DiaCorte="23" DiaPaga="17" FechaInicio="05-01-2012" NombrePersona="Stefanny Monestel Lara" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="9299974" Cuota="81524" DiaCorte="22" DiaPaga="20" FechaInicio="01-17-2009" NombrePersona="Fernando Orozco Castilla" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="1753594" Cuota="46733" DiaCorte="27" DiaPaga="15" FechaInicio="09-08-2013" NombrePersona="Tony Castilla Orozco" IDTipPrestamo="4"/>
-                <Prestamo MontoOriginal="2138743" Cuota="9296" DiaCorte="24" DiaPaga="5" FechaInicio="09-04-2015" NombrePersona="Alan Vives Castro" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="6906270" Cuota="60541" DiaCorte="21" DiaPaga="8" FechaInicio="06-27-2010" NombrePersona="German Araya Mendez" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="5300475" Cuota="141257" DiaCorte="21" DiaPaga="9" FechaInicio="06-13-2006" NombrePersona="Belen Chaves Arce" IDTipPrestamo="4"/>
-                <Prestamo MontoOriginal="4194536" Cuota="111784" DiaCorte="24" DiaPaga="8" FechaInicio="08-25-2011" NombrePersona="Fernando Chaves Arce" IDTipPrestamo="4"/>
-                <Prestamo MontoOriginal="9149015" Cuota="404802" DiaCorte="28" DiaPaga="17" FechaInicio="01-27-2010" NombrePersona="Tony Ugalde Orozco" IDTipPrestamo="3"/>
-                <Prestamo MontoOriginal="5082555" Cuota="22091" DiaCorte="26" DiaPaga="4" FechaInicio="03-07-2005" NombrePersona="Kevin Chaves Rodríguez" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="9679156" Cuota="1306622" DiaCorte="26" DiaPaga="12" FechaInicio="06-25-2015" NombrePersona="Natalia Mendez Ugarte" IDTipPrestamo="1"/>
-                <Prestamo MontoOriginal="5894825" Cuota="25622" DiaCorte="22" DiaPaga="10" FechaInicio="06-10-2011" NombrePersona="Xinia Castilla Lara" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="4507600" Cuota="608496" DiaCorte="25" DiaPaga="16" FechaInicio="10-02-2010" NombrePersona="Bryan Castro Vives" IDTipPrestamo="1"/>
-                <Prestamo MontoOriginal="10802739" Cuota="46954" DiaCorte="21" DiaPaga="5" FechaInicio="05-08-2015" NombrePersona="Iliana Gonzales Monestel" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="4230657" Cuota="112746" DiaCorte="22" DiaPaga="3" FechaInicio="11-13-2014" NombrePersona="Jose Castro Castilla" IDTipPrestamo="4"/>
-                <Prestamo MontoOriginal="6291977" Cuota="55156" DiaCorte="21" DiaPaga="9" FechaInicio="10-06-2013" NombrePersona="Leonardo Ugalde Mendez" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="2725363" Cuota="181798" DiaCorte="25" DiaPaga="3" FechaInicio="09-06-2012" NombrePersona="Victor Orozco Araya" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="4465066" Cuota="39141" DiaCorte="27" DiaPaga="20" FechaInicio="06-13-2010" NombrePersona="Asdrubal Castilla Castilla" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="10931878" Cuota="483686" DiaCorte="26" DiaPaga="12" FechaInicio="03-12-2009" NombrePersona="Maciel Vives Arce" IDTipPrestamo="3"/>
-                <Prestamo MontoOriginal="6735966" Cuota="29278" DiaCorte="25" DiaPaga="7" FechaInicio="12-10-2014" NombrePersona="Juan Castilla Solorzano" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="6633034" Cuota="28830" DiaCorte="27" DiaPaga="19" FechaInicio="01-16-2015" NombrePersona="Ivan Araya Perez" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="2205705" Cuota="9587" DiaCorte="28" DiaPaga="10" FechaInicio="07-20-2005" NombrePersona="Karla Alvarado Monestel" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="5667577" Cuota="250764" DiaCorte="26" DiaPaga="5" FechaInicio="05-28-2015" NombrePersona="Victor Chaves Solorzano" IDTipPrestamo="3"/>
-                <Prestamo MontoOriginal="6725600" Cuota="179236" DiaCorte="26" DiaPaga="13" FechaInicio="08-14-2008" NombrePersona="Asdrubal Solorzano Rivera" IDTipPrestamo="4"/>
-                <Prestamo MontoOriginal="2944240" Cuota="196399" DiaCorte="25" DiaPaga="7" FechaInicio="07-26-2011" NombrePersona="Daniel Arce Castilla" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="7186557" Cuota="970138" DiaCorte="24" DiaPaga="3" FechaInicio="05-08-2013" NombrePersona="Katia Rivera Vives" IDTipPrestamo="1"/>
-                <Prestamo MontoOriginal="8148529" Cuota="1099998" DiaCorte="23" DiaPaga="4" FechaInicio="11-30-2011" NombrePersona="Ana Ugalde Corella" IDTipPrestamo="1"/>
-                <Prestamo MontoOriginal="7798785" Cuota="207837" DiaCorte="27" DiaPaga="10" FechaInicio="02-26-2013" NombrePersona="Maria Ugalde Chaves" IDTipPrestamo="4"/>
-                <Prestamo MontoOriginal="3260844" Cuota="86901" DiaCorte="25" DiaPaga="8" FechaInicio="10-18-2012" NombrePersona="Jose Orozco Alvarado" IDTipPrestamo="4"/>
-                <Prestamo MontoOriginal="10537631" Cuota="1422511" DiaCorte="24" DiaPaga="10" FechaInicio="12-01-2012" NombrePersona="Stefanny Corella Alvarado" IDTipPrestamo="1"/>
-                <Prestamo MontoOriginal="1289573" Cuota="34367" DiaCorte="27" DiaPaga="13" FechaInicio="11-18-2014" NombrePersona="Sandi Rodríguez Ugalde" IDTipPrestamo="4"/>
-                <Prestamo MontoOriginal="7524249" Cuota="65958" DiaCorte="25" DiaPaga="1" FechaInicio="06-08-2012" NombrePersona="Maria Orozco Monestel" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="2835678" Cuota="125466" DiaCorte="23" DiaPaga="11" FechaInicio="10-11-2006" NombrePersona="Randall Lara Araya" IDTipPrestamo="3"/>
-                <Prestamo MontoOriginal="10401875" Cuota="45212" DiaCorte="24" DiaPaga="2" FechaInicio="07-08-2013" NombrePersona="Maria Gonzales Ugalde" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="9958930" Cuota="1344390" DiaCorte="21" DiaPaga="12" FechaInicio="06-28-2007" NombrePersona="Juan Rivera Vives" IDTipPrestamo="1"/>
-                <Prestamo MontoOriginal="7050661" Cuota="311960" DiaCorte="26" DiaPaga="17" FechaInicio="08-17-2012" NombrePersona="Victor Rodríguez Castilla" IDTipPrestamo="3"/>
-                <Prestamo MontoOriginal="8067153" Cuota="1089012" DiaCorte="26" DiaPaga="6" FechaInicio="05-28-2011" NombrePersona="Bryan Castro Arce" IDTipPrestamo="1"/>
-                <Prestamo MontoOriginal="6060687" Cuota="404285" DiaCorte="28" DiaPaga="1" FechaInicio="01-03-2008" NombrePersona="Evar Vives Corella" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="4653386" Cuota="628176" DiaCorte="21" DiaPaga="11" FechaInicio="08-21-2010" NombrePersona="Katia Corella Perez" IDTipPrestamo="1"/>
-                <Prestamo MontoOriginal="3950682" Cuota="174799" DiaCorte="23" DiaPaga="16" FechaInicio="04-15-2007" NombrePersona="Lizeth Rodríguez Rodríguez" IDTipPrestamo="3"/>
-                <Prestamo MontoOriginal="1987301" Cuota="268272" DiaCorte="28" DiaPaga="7" FechaInicio="08-14-2010" NombrePersona="Farlen Gonzales Solorzano" IDTipPrestamo="1"/>
-                <Prestamo MontoOriginal="2838761" Cuota="24884" DiaCorte="21" DiaPaga="17" FechaInicio="02-21-2012" NombrePersona="Natalia Perez Ugalde" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="9616008" Cuota="41796" DiaCorte="22" DiaPaga="6" FechaInicio="09-18-2007" NombrePersona="Norris Rivera Rivera" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="4254805" Cuota="18493" DiaCorte="21" DiaPaga="11" FechaInicio="11-18-2006" NombrePersona="Victoria Ugalde Orozco" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="8329015" Cuota="73013" DiaCorte="27" DiaPaga="12" FechaInicio="05-28-2008" NombrePersona="Juan Castilla Vives" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="6460769" Cuota="172178" DiaCorte="26" DiaPaga="18" FechaInicio="04-17-2012" NombrePersona="Leonardo Vives Monestel" IDTipPrestamo="4"/>
-                <Prestamo MontoOriginal="8872806" Cuota="77780" DiaCorte="25" DiaPaga="2" FechaInicio="05-23-2014" NombrePersona="Juan Elizondo Araya" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="3259416" Cuota="28572" DiaCorte="21" DiaPaga="12" FechaInicio="03-03-2005" NombrePersona="Andres Monestel Mendez" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="6633809" Cuota="293516" DiaCorte="24" DiaPaga="18" FechaInicio="04-26-2006" NombrePersona="Lizeth Ugalde Orozco" IDTipPrestamo="3"/>
-                <Prestamo MontoOriginal="10476460" Cuota="91838" DiaCorte="27" DiaPaga="17" FechaInicio="09-07-2013" NombrePersona="Laura Alvarado Rivera" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="1598107" Cuota="14009" DiaCorte="26" DiaPaga="10" FechaInicio="10-30-2012" NombrePersona="Norris Solorzano Ugalde" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="5705486" Cuota="50015" DiaCorte="23" DiaPaga="15" FechaInicio="11-12-2015" NombrePersona="Lizeth Elizondo Mendez" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="10066843" Cuota="43756" DiaCorte="23" DiaPaga="8" FechaInicio="12-24-2007" NombrePersona="Rover Araya Vives" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="3525367" Cuota="235164" DiaCorte="27" DiaPaga="17" FechaInicio="05-08-2008" NombrePersona="Carlos Monestel Chaves" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="5686723" Cuota="24717" DiaCorte="21" DiaPaga="10" FechaInicio="01-29-2008" NombrePersona="Fernando Solorzano Lara" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="10177774" Cuota="89219" DiaCorte="21" DiaPaga="10" FechaInicio="05-09-2013" NombrePersona="Carlos Monestel Castilla" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="1914149" Cuota="127685" DiaCorte="26" DiaPaga="20" FechaInicio="04-24-2015" NombrePersona="Geovanny Ugalde Chaves" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="7241248" Cuota="483036" DiaCorte="21" DiaPaga="2" FechaInicio="03-10-2015" NombrePersona="Andres Gonzales Alvarado" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="5895891" Cuota="795906" DiaCorte="27" DiaPaga="5" FechaInicio="08-17-2007" NombrePersona="Jose Castro Rodríguez" IDTipPrestamo="1"/>
-                <Prestamo MontoOriginal="2581022" Cuota="172170" DiaCorte="26" DiaPaga="11" FechaInicio="07-05-2013" NombrePersona="Stefanny Castro Gonzales" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="4331237" Cuota="288920" DiaCorte="26" DiaPaga="2" FechaInicio="02-04-2009" NombrePersona="Laura Mendez Ugarte" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="7157908" Cuota="190757" DiaCorte="28" DiaPaga="3" FechaInicio="08-28-2007" NombrePersona="Maciel Castilla Gonzales" IDTipPrestamo="4"/>
-                <Prestamo MontoOriginal="6275468" Cuota="847147" DiaCorte="28" DiaPaga="16" FechaInicio="08-02-2005" NombrePersona="Carlos Solorzano Corella" IDTipPrestamo="1"/>
-                <Prestamo MontoOriginal="10460238" Cuota="697763" DiaCorte="22" DiaPaga="18" FechaInicio="12-14-2013" NombrePersona="Farlen Ugalde Ugalde" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="1981211" Cuota="17367" DiaCorte="27" DiaPaga="3" FechaInicio="09-04-2006" NombrePersona="Karla Gonzales Araya" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="9307910" Cuota="411833" DiaCorte="23" DiaPaga="19" FechaInicio="10-04-2014" NombrePersona="Maciel Ugalde Rivera" IDTipPrestamo="3"/>
-                <Prestamo MontoOriginal="1523059" Cuota="67388" DiaCorte="28" DiaPaga="1" FechaInicio="08-14-2010" NombrePersona="Marin Arce Rodríguez" IDTipPrestamo="3"/>
-                <Prestamo MontoOriginal="1597530" Cuota="70683" DiaCorte="26" DiaPaga="9" FechaInicio="10-08-2008" NombrePersona="Laura Monestel Gonzales" IDTipPrestamo="3"/>
-                <Prestamo MontoOriginal="5704896" Cuota="152035" DiaCorte="26" DiaPaga="11" FechaInicio="05-25-2005" NombrePersona="Xinia Castilla Mendez" IDTipPrestamo="4"/>
-                <Prestamo MontoOriginal="2287856" Cuota="152614" DiaCorte="24" DiaPaga="1" FechaInicio="06-04-2014" NombrePersona="Katia Chaves Elizondo" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="3951716" Cuota="263604" DiaCorte="23" DiaPaga="18" FechaInicio="10-15-2009" NombrePersona="Norris Chaves Arce" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="3050446" Cuota="203483" DiaCorte="23" DiaPaga="10" FechaInicio="08-16-2007" NombrePersona="Kevin Castro Gonzales" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="10892153" Cuota="95482" DiaCorte="28" DiaPaga="11" FechaInicio="12-07-2011" NombrePersona="Laura Araya Solorzano" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="10507455" Cuota="280022" DiaCorte="25" DiaPaga="11" FechaInicio="12-06-2005" NombrePersona="Leonardo Araya Mendez" IDTipPrestamo="4"/>
-                <Prestamo MontoOriginal="10791497" Cuota="477475" DiaCorte="26" DiaPaga="6" FechaInicio="01-16-2014" NombrePersona="Farlen Castro Alvarado" IDTipPrestamo="3"/>
-                <Prestamo MontoOriginal="8091411" Cuota="539747" DiaCorte="28" DiaPaga="6" FechaInicio="05-02-2006" NombrePersona="Jose Castilla Perez" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="4308002" Cuota="190609" DiaCorte="26" DiaPaga="8" FechaInicio="11-13-2009" NombrePersona="Karla Rodríguez Mendez" IDTipPrestamo="3"/>
-                <Prestamo MontoOriginal="5508165" Cuota="23941" DiaCorte="28" DiaPaga="2" FechaInicio="06-13-2014" NombrePersona="Jose Lara Ugalde" IDTipPrestamo="6"/>
-                <Prestamo MontoOriginal="6863319" Cuota="457826" DiaCorte="27" DiaPaga="10" FechaInicio="11-23-2006" NombrePersona="Johana Ugalde Araya" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="9697665" Cuota="646894" DiaCorte="21" DiaPaga="6" FechaInicio="10-15-2012" NombrePersona="Juan Ugarte Mendez" IDTipPrestamo="2"/>
-                <Prestamo MontoOriginal="5311782" Cuota="46563" DiaCorte="21" DiaPaga="13" FechaInicio="12-07-2008" NombrePersona="Sandra Castilla Solorzano" IDTipPrestamo="5"/>
-                <Prestamo MontoOriginal="5752507" Cuota="383728" DiaCorte="25" DiaPaga="19" FechaInicio="08-28-2010" NombrePersona="Iliana Perez Arce" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="4918904" Cuota="664019" DiaCorte="25" DiaPaga="14" FechaInicio="10-15-2013" NombrePersona="Maciel Perez Perez" IDTipPrestamo="1"/>
+        <Prestamo MontoOriginal="4844327" Cuota="653952" DiaCorte="22" DiaPaga="16" FechaInicio="04-16-2005" NombrePersona="Aaron Mendez Ugalde" IDTipPrestamo="1"/>
+        <Prestamo MontoOriginal="1752333" Cuota="15361" DiaCorte="24" DiaPaga="20" FechaInicio="11-02-2008" NombrePersona="Victor Chaves Castro" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="2572191" Cuota="22548" DiaCorte="27" DiaPaga="12" FechaInicio="06-21-2014" NombrePersona="Farlen Rodríguez Ugalde" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="1981264" Cuota="132162" DiaCorte="21" DiaPaga="5" FechaInicio="08-18-2015" NombrePersona="Eylin Elizondo Rivera" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="4277177" Cuota="285314" DiaCorte="23" DiaPaga="19" FechaInicio="03-12-2011" NombrePersona="Norris Rivera Gonzales" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="10321434" Cuota="688504" DiaCorte="23" DiaPaga="15" FechaInicio="12-21-2015" NombrePersona="Stefanny Corella Chaves" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="4278274" Cuota="285387" DiaCorte="26" DiaPaga="11" FechaInicio="06-01-2010" NombrePersona="Ivan Orozco Arce" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="9489984" Cuota="83190" DiaCorte="27" DiaPaga="1" FechaInicio="03-23-2007" NombrePersona="Alexander Castro Mendez" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="6247057" Cuota="27153" DiaCorte="27" DiaPaga="4" FechaInicio="03-10-2007" NombrePersona="Carlos Perez Chaves" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="7533055" Cuota="32743" DiaCorte="22" DiaPaga="6" FechaInicio="11-22-2009" NombrePersona="Sandra Rivera Araya" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="6558243" Cuota="885319" DiaCorte="27" DiaPaga="7" FechaInicio="08-12-2009" NombrePersona="Rover Monestel Orozco" IDTipPrestamo="1"/>
+        <Prestamo MontoOriginal="9970215" Cuota="665075" DiaCorte="27" DiaPaga="17" FechaInicio="06-13-2009" NombrePersona="Bryan Ugarte Monestel" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="2167729" Cuota="292629" DiaCorte="28" DiaPaga="19" FechaInicio="06-22-2005" NombrePersona="Evar Perez Castro" IDTipPrestamo="1"/>
+        <Prestamo MontoOriginal="1696375" Cuota="7373" DiaCorte="25" DiaPaga="7" FechaInicio="07-19-2015" NombrePersona="Ivan Castilla Vives" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="9508281" Cuota="83350" DiaCorte="26" DiaPaga="16" FechaInicio="03-01-2007" NombrePersona="Evar Mendez Arce" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="7148814" Cuota="62667" DiaCorte="25" DiaPaga="16" FechaInicio="02-11-2010" NombrePersona="Tony Corella Lara" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="4488707" Cuota="119623" DiaCorte="22" DiaPaga="6" FechaInicio="01-25-2009" NombrePersona="Katherine Mendez Lara" IDTipPrestamo="4"/>
+        <Prestamo MontoOriginal="1995498" Cuota="133112" DiaCorte="24" DiaPaga="4" FechaInicio="02-12-2014" NombrePersona="Xinia Ugarte Castilla" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="10806928" Cuota="94735" DiaCorte="23" DiaPaga="17" FechaInicio="05-01-2012" NombrePersona="Stefanny Monestel Lara" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="9299974" Cuota="81524" DiaCorte="22" DiaPaga="20" FechaInicio="01-17-2009" NombrePersona="Fernando Orozco Castilla" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="1753594" Cuota="46733" DiaCorte="27" DiaPaga="15" FechaInicio="09-08-2013" NombrePersona="Tony Castilla Orozco" IDTipPrestamo="4"/>
+        <Prestamo MontoOriginal="2138743" Cuota="9296" DiaCorte="24" DiaPaga="5" FechaInicio="09-04-2015" NombrePersona="Alan Vives Castro" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="6906270" Cuota="60541" DiaCorte="21" DiaPaga="8" FechaInicio="06-27-2010" NombrePersona="German Araya Mendez" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="5300475" Cuota="141257" DiaCorte="21" DiaPaga="9" FechaInicio="06-13-2006" NombrePersona="Belen Chaves Arce" IDTipPrestamo="4"/>
+        <Prestamo MontoOriginal="4194536" Cuota="111784" DiaCorte="24" DiaPaga="8" FechaInicio="08-25-2011" NombrePersona="Fernando Chaves Arce" IDTipPrestamo="4"/>
+        <Prestamo MontoOriginal="9149015" Cuota="404802" DiaCorte="28" DiaPaga="17" FechaInicio="01-27-2010" NombrePersona="Tony Ugalde Orozco" IDTipPrestamo="3"/>
+        <Prestamo MontoOriginal="5082555" Cuota="22091" DiaCorte="26" DiaPaga="4" FechaInicio="03-07-2005" NombrePersona="Kevin Chaves Rodríguez" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="9679156" Cuota="1306622" DiaCorte="26" DiaPaga="12" FechaInicio="06-25-2015" NombrePersona="Natalia Mendez Ugarte" IDTipPrestamo="1"/>
+        <Prestamo MontoOriginal="5894825" Cuota="25622" DiaCorte="22" DiaPaga="10" FechaInicio="06-10-2011" NombrePersona="Xinia Castilla Lara" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="4507600" Cuota="608496" DiaCorte="25" DiaPaga="16" FechaInicio="10-02-2010" NombrePersona="Bryan Castro Vives" IDTipPrestamo="1"/>
+        <Prestamo MontoOriginal="10802739" Cuota="46954" DiaCorte="21" DiaPaga="5" FechaInicio="05-08-2015" NombrePersona="Iliana Gonzales Monestel" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="4230657" Cuota="112746" DiaCorte="22" DiaPaga="3" FechaInicio="11-13-2014" NombrePersona="Jose Castro Castilla" IDTipPrestamo="4"/>
+        <Prestamo MontoOriginal="6291977" Cuota="55156" DiaCorte="21" DiaPaga="9" FechaInicio="10-06-2013" NombrePersona="Leonardo Ugalde Mendez" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="2725363" Cuota="181798" DiaCorte="25" DiaPaga="3" FechaInicio="09-06-2012" NombrePersona="Victor Orozco Araya" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="4465066" Cuota="39141" DiaCorte="27" DiaPaga="20" FechaInicio="06-13-2010" NombrePersona="Asdrubal Castilla Castilla" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="10931878" Cuota="483686" DiaCorte="26" DiaPaga="12" FechaInicio="03-12-2009" NombrePersona="Maciel Vives Arce" IDTipPrestamo="3"/>
+        <Prestamo MontoOriginal="6735966" Cuota="29278" DiaCorte="25" DiaPaga="7" FechaInicio="12-10-2014" NombrePersona="Juan Castilla Solorzano" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="6633034" Cuota="28830" DiaCorte="27" DiaPaga="19" FechaInicio="01-16-2015" NombrePersona="Ivan Araya Perez" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="2205705" Cuota="9587" DiaCorte="28" DiaPaga="10" FechaInicio="07-20-2005" NombrePersona="Karla Alvarado Monestel" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="5667577" Cuota="250764" DiaCorte="26" DiaPaga="5" FechaInicio="05-28-2015" NombrePersona="Victor Chaves Solorzano" IDTipPrestamo="3"/>
+        <Prestamo MontoOriginal="6725600" Cuota="179236" DiaCorte="26" DiaPaga="13" FechaInicio="08-14-2008" NombrePersona="Asdrubal Solorzano Rivera" IDTipPrestamo="4"/>
+        <Prestamo MontoOriginal="2944240" Cuota="196399" DiaCorte="25" DiaPaga="7" FechaInicio="07-26-2011" NombrePersona="Daniel Arce Castilla" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="7186557" Cuota="970138" DiaCorte="24" DiaPaga="3" FechaInicio="05-08-2013" NombrePersona="Katia Rivera Vives" IDTipPrestamo="1"/>
+        <Prestamo MontoOriginal="8148529" Cuota="1099998" DiaCorte="23" DiaPaga="4" FechaInicio="11-30-2011" NombrePersona="Ana Ugalde Corella" IDTipPrestamo="1"/>
+        <Prestamo MontoOriginal="7798785" Cuota="207837" DiaCorte="27" DiaPaga="10" FechaInicio="02-26-2013" NombrePersona="Maria Ugalde Chaves" IDTipPrestamo="4"/>
+        <Prestamo MontoOriginal="3260844" Cuota="86901" DiaCorte="25" DiaPaga="8" FechaInicio="10-18-2012" NombrePersona="Jose Orozco Alvarado" IDTipPrestamo="4"/>
+        <Prestamo MontoOriginal="10537631" Cuota="1422511" DiaCorte="24" DiaPaga="10" FechaInicio="12-01-2012" NombrePersona="Stefanny Corella Alvarado" IDTipPrestamo="1"/>
+        <Prestamo MontoOriginal="1289573" Cuota="34367" DiaCorte="27" DiaPaga="13" FechaInicio="11-18-2014" NombrePersona="Sandi Rodríguez Ugalde" IDTipPrestamo="4"/>
+        <Prestamo MontoOriginal="7524249" Cuota="65958" DiaCorte="25" DiaPaga="1" FechaInicio="06-08-2012" NombrePersona="Maria Orozco Monestel" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="2835678" Cuota="125466" DiaCorte="23" DiaPaga="11" FechaInicio="10-11-2006" NombrePersona="Randall Lara Araya" IDTipPrestamo="3"/>
+        <Prestamo MontoOriginal="10401875" Cuota="45212" DiaCorte="24" DiaPaga="2" FechaInicio="07-08-2013" NombrePersona="Maria Gonzales Ugalde" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="9958930" Cuota="1344390" DiaCorte="21" DiaPaga="12" FechaInicio="06-28-2007" NombrePersona="Juan Rivera Vives" IDTipPrestamo="1"/>
+        <Prestamo MontoOriginal="7050661" Cuota="311960" DiaCorte="26" DiaPaga="17" FechaInicio="08-17-2012" NombrePersona="Victor Rodríguez Castilla" IDTipPrestamo="3"/>
+        <Prestamo MontoOriginal="8067153" Cuota="1089012" DiaCorte="26" DiaPaga="6" FechaInicio="05-28-2011" NombrePersona="Bryan Castro Arce" IDTipPrestamo="1"/>
+        <Prestamo MontoOriginal="6060687" Cuota="404285" DiaCorte="28" DiaPaga="1" FechaInicio="01-03-2008" NombrePersona="Evar Vives Corella" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="4653386" Cuota="628176" DiaCorte="21" DiaPaga="11" FechaInicio="08-21-2010" NombrePersona="Katia Corella Perez" IDTipPrestamo="1"/>
+        <Prestamo MontoOriginal="3950682" Cuota="174799" DiaCorte="23" DiaPaga="16" FechaInicio="04-15-2007" NombrePersona="Lizeth Rodríguez Rodríguez" IDTipPrestamo="3"/>
+        <Prestamo MontoOriginal="1987301" Cuota="268272" DiaCorte="28" DiaPaga="7" FechaInicio="08-14-2010" NombrePersona="Farlen Gonzales Solorzano" IDTipPrestamo="1"/>
+        <Prestamo MontoOriginal="2838761" Cuota="24884" DiaCorte="21" DiaPaga="17" FechaInicio="02-21-2012" NombrePersona="Natalia Perez Ugalde" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="9616008" Cuota="41796" DiaCorte="22" DiaPaga="6" FechaInicio="09-18-2007" NombrePersona="Norris Rivera Rivera" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="4254805" Cuota="18493" DiaCorte="21" DiaPaga="11" FechaInicio="11-18-2006" NombrePersona="Victoria Ugalde Orozco" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="8329015" Cuota="73013" DiaCorte="27" DiaPaga="12" FechaInicio="05-28-2008" NombrePersona="Juan Castilla Vives" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="6460769" Cuota="172178" DiaCorte="26" DiaPaga="18" FechaInicio="04-17-2012" NombrePersona="Leonardo Vives Monestel" IDTipPrestamo="4"/>
+        <Prestamo MontoOriginal="8872806" Cuota="77780" DiaCorte="25" DiaPaga="2" FechaInicio="05-23-2014" NombrePersona="Juan Elizondo Araya" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="3259416" Cuota="28572" DiaCorte="21" DiaPaga="12" FechaInicio="03-03-2005" NombrePersona="Andres Monestel Mendez" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="6633809" Cuota="293516" DiaCorte="24" DiaPaga="18" FechaInicio="04-26-2006" NombrePersona="Lizeth Ugalde Orozco" IDTipPrestamo="3"/>
+        <Prestamo MontoOriginal="10476460" Cuota="91838" DiaCorte="27" DiaPaga="17" FechaInicio="09-07-2013" NombrePersona="Laura Alvarado Rivera" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="1598107" Cuota="14009" DiaCorte="26" DiaPaga="10" FechaInicio="10-30-2012" NombrePersona="Norris Solorzano Ugalde" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="5705486" Cuota="50015" DiaCorte="23" DiaPaga="15" FechaInicio="11-12-2015" NombrePersona="Lizeth Elizondo Mendez" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="10066843" Cuota="43756" DiaCorte="23" DiaPaga="8" FechaInicio="12-24-2007" NombrePersona="Rover Araya Vives" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="3525367" Cuota="235164" DiaCorte="27" DiaPaga="17" FechaInicio="05-08-2008" NombrePersona="Carlos Monestel Chaves" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="5686723" Cuota="24717" DiaCorte="21" DiaPaga="10" FechaInicio="01-29-2008" NombrePersona="Fernando Solorzano Lara" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="10177774" Cuota="89219" DiaCorte="21" DiaPaga="10" FechaInicio="05-09-2013" NombrePersona="Carlos Monestel Castilla" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="1914149" Cuota="127685" DiaCorte="26" DiaPaga="20" FechaInicio="04-24-2015" NombrePersona="Geovanny Ugalde Chaves" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="7241248" Cuota="483036" DiaCorte="21" DiaPaga="2" FechaInicio="03-10-2015" NombrePersona="Andres Gonzales Alvarado" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="5895891" Cuota="795906" DiaCorte="27" DiaPaga="5" FechaInicio="08-17-2007" NombrePersona="Jose Castro Rodríguez" IDTipPrestamo="1"/>
+        <Prestamo MontoOriginal="2581022" Cuota="172170" DiaCorte="26" DiaPaga="11" FechaInicio="07-05-2013" NombrePersona="Stefanny Castro Gonzales" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="4331237" Cuota="288920" DiaCorte="26" DiaPaga="2" FechaInicio="02-04-2009" NombrePersona="Laura Mendez Ugarte" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="7157908" Cuota="190757" DiaCorte="28" DiaPaga="3" FechaInicio="08-28-2007" NombrePersona="Maciel Castilla Gonzales" IDTipPrestamo="4"/>
+        <Prestamo MontoOriginal="6275468" Cuota="847147" DiaCorte="28" DiaPaga="16" FechaInicio="08-02-2005" NombrePersona="Carlos Solorzano Corella" IDTipPrestamo="1"/>
+        <Prestamo MontoOriginal="10460238" Cuota="697763" DiaCorte="22" DiaPaga="18" FechaInicio="12-14-2013" NombrePersona="Farlen Ugalde Ugalde" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="1981211" Cuota="17367" DiaCorte="27" DiaPaga="3" FechaInicio="09-04-2006" NombrePersona="Karla Gonzales Araya" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="9307910" Cuota="411833" DiaCorte="23" DiaPaga="19" FechaInicio="10-04-2014" NombrePersona="Maciel Ugalde Rivera" IDTipPrestamo="3"/>
+        <Prestamo MontoOriginal="1523059" Cuota="67388" DiaCorte="28" DiaPaga="1" FechaInicio="08-14-2010" NombrePersona="Marin Arce Rodríguez" IDTipPrestamo="3"/>
+        <Prestamo MontoOriginal="1597530" Cuota="70683" DiaCorte="26" DiaPaga="9" FechaInicio="10-08-2008" NombrePersona="Laura Monestel Gonzales" IDTipPrestamo="3"/>
+        <Prestamo MontoOriginal="5704896" Cuota="152035" DiaCorte="26" DiaPaga="11" FechaInicio="05-25-2005" NombrePersona="Xinia Castilla Mendez" IDTipPrestamo="4"/>
+        <Prestamo MontoOriginal="2287856" Cuota="152614" DiaCorte="24" DiaPaga="1" FechaInicio="06-04-2014" NombrePersona="Katia Chaves Elizondo" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="3951716" Cuota="263604" DiaCorte="23" DiaPaga="18" FechaInicio="10-15-2009" NombrePersona="Norris Chaves Arce" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="3050446" Cuota="203483" DiaCorte="23" DiaPaga="10" FechaInicio="08-16-2007" NombrePersona="Kevin Castro Gonzales" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="10892153" Cuota="95482" DiaCorte="28" DiaPaga="11" FechaInicio="12-07-2011" NombrePersona="Laura Araya Solorzano" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="10507455" Cuota="280022" DiaCorte="25" DiaPaga="11" FechaInicio="12-06-2005" NombrePersona="Leonardo Araya Mendez" IDTipPrestamo="4"/>
+        <Prestamo MontoOriginal="10791497" Cuota="477475" DiaCorte="26" DiaPaga="6" FechaInicio="01-16-2014" NombrePersona="Farlen Castro Alvarado" IDTipPrestamo="3"/>
+        <Prestamo MontoOriginal="8091411" Cuota="539747" DiaCorte="28" DiaPaga="6" FechaInicio="05-02-2006" NombrePersona="Jose Castilla Perez" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="4308002" Cuota="190609" DiaCorte="26" DiaPaga="8" FechaInicio="11-13-2009" NombrePersona="Karla Rodríguez Mendez" IDTipPrestamo="3"/>
+        <Prestamo MontoOriginal="5508165" Cuota="23941" DiaCorte="28" DiaPaga="2" FechaInicio="06-13-2014" NombrePersona="Jose Lara Ugalde" IDTipPrestamo="6"/>
+        <Prestamo MontoOriginal="6863319" Cuota="457826" DiaCorte="27" DiaPaga="10" FechaInicio="11-23-2006" NombrePersona="Johana Ugalde Araya" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="9697665" Cuota="646894" DiaCorte="21" DiaPaga="6" FechaInicio="10-15-2012" NombrePersona="Juan Ugarte Mendez" IDTipPrestamo="2"/>
+        <Prestamo MontoOriginal="5311782" Cuota="46563" DiaCorte="21" DiaPaga="13" FechaInicio="12-07-2008" NombrePersona="Sandra Castilla Solorzano" IDTipPrestamo="5"/>
+        <Prestamo MontoOriginal="5752507" Cuota="383728" DiaCorte="25" DiaPaga="19" FechaInicio="08-28-2010" NombrePersona="Iliana Perez Arce" IDTipPrestamo="2"/>
 	</Prestamos>
 </ROOT>
 
