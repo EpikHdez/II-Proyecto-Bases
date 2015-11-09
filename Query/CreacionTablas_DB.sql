@@ -8,6 +8,7 @@ CREATE TABLE Deudores (
 ID INT IDENTITY(1, 1) NOT NULL,
 Cedula INT,
 Nombre VARCHAR(100),
+Activo BIT,
 PRIMARY KEY (ID)
 );
 GO
@@ -17,6 +18,7 @@ ID INT IDENTITY(1, 1) NOT NULL,
 Nombre VARCHAR(100),
 Tasa FLOAT,
 Plazo INT,
+Activo BIT,
 PRIMARY KEY (ID)
 );
 GO
@@ -24,6 +26,7 @@ GO
 CREATE TABLE TipoMovimientoInteresDiario (
 ID INT IDENTITY(1, 1) NOT NULL,
 Nombre VARCHAR(100),
+Activo BIT,
 PRIMARY KEY (ID)
 );
 GO
@@ -33,6 +36,7 @@ ID INT IDENTITY(1, 1) NOT NULL,
 FK_TipoMovimientoInteresDiario INT,
 Fecha DATE,
 Monto INT,
+Activo BIT,
 PRIMARY KEY (ID),
 FOREIGN KEY (FK_TipoMovimientoInteresDiario) REFERENCES TipoMovimientoInteresDiario (ID)
 );
@@ -43,6 +47,7 @@ ID INT IDENTITY(1, 1) NOT NULL,
 Fecha DATE,
 Amortizacion INT,
 Intereses INT,
+Activo BIT,
 PRIMARY KEY (ID),
 );
 GO
@@ -61,6 +66,7 @@ ID INT IDENTITY(1, 1) NOT NULL,
 Fecha DATE,
 Amortizacion INT,
 Intereses INT,
+Activo BIT,
 PRIMARY KEY (ID),
 );
 GO
@@ -79,6 +85,7 @@ SaldoNoAplicado INT,
 SaldoAplicado INT,
 InteresAcumuladoMensual INT,
 DiaCorte INT,
+Activo BIT,
 PRIMARY KEY(ID),
 FOREIGN KEY (FK_Deudor) REFERENCES Deudores (ID),
 FOREIGN KEY (FK_TipoPrestamo) REFERENCES TipoPrestamo (ID),
