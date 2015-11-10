@@ -2,8 +2,7 @@ USE FondoAhorrosDB;
 
 CREATE PROCEDURE FASP_InsertarDeudores
 	@pCedula INT = 0,
-	@pNombre VARCHAR(100) = NULL,
-	@pActivo BIT = 0
+	@pNombre VARCHAR(100) = NULL
 
 AS
 BEGIN
@@ -11,7 +10,7 @@ BEGIN
 		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 		BEGIN TRANSACTION;
 			INSERT INTO dbo.Deudores(Cedula, Nombre,Activo)
-			VALUES (@pCedula, @pNombre, @pActivo)
+			VALUES (@pCedula, @pNombre, 1)
 		COMMIT TRANSACTION;
 
 		RETURN SCOPE_IDENTITY();
@@ -27,6 +26,11 @@ END
 GO
 
 CREATE PROCEDURE FASP_InsertarPrestamo
+	@pDeudor INT,
+	@pTipoPrestamo INT,
+	@pMovimientoInteresDiario INT,
+	@pMovimientoSaldoNoAplicado INT,
+	@pMovimientoSaldoAplicado INT,
 	@pMontoOriginal INT = 0,
 	@pCuota INT = 0,
 	@pPlazoRestante INT = 0,
@@ -37,8 +41,11 @@ BEGIN
 	BEGIN TRY
 		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 		BEGIN TRANSACTION;
-			INSERT INTO dbo.Prestamos(MontoOriginal, Cuota, PlazoRestante, SaldoNoAplicado, SaldoAplicado, InteresAcumulado, DiaCorte)
-			VALUES (@pMontoOriginal, @pCuota, @pPlazoRestante, 0, 0, 0 @pDiaCorte)
+			INSERT INTO dbo.Prestamos(FK_Deudor, FK_TipoPrestamo,FK_MovimientoInteresDiario, FK_MovimientoSaldoNoAplicado, 
+			FK_MovimientoSaldoAplicado,MontoOriginal, Cuota, PlazoRestante, SaldoNoAplicado, SaldoAplicado, InteresAcumuladoMensual, 
+			DiaCorte, Activo)
+			VALUES (@pDeudor, @pTipoPrestamo, @pMovimientoInteresDiario, @pMovimientoSaldoNoAplicado, @pMovimientoSaldoAplicado, @pMontoOriginal,
+			@pCuota, @pPlazoRestante, 0, 0, 0, @pDiaCorte, 1)
 		COMMIT TRANSACTION;
 
 		RETURN SCOPE_IDENTITY();
@@ -53,16 +60,17 @@ END
 GO
 
 CREATE PROCEDURE FASP_InsertarMovimientoInteresDiario
+	@pTipoMovimientoInteresDiario INT,
 	@pFecha DATE = NULL,
-	@pMonto INT = 0,
+	@pMonto INT = 0
 
 AS
 BEGIN
 	BEGIN TRY
 		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 		BEGIN TRANSACTION;
-			INSERT INTO dbo.MovimientoInteresDiario(Fecha, Monto)
-			VALUES (@pFecha, @pMonto)
+			INSERT INTO dbo.MovimientoInteresDiario(FK_TipoMovimientoInteresDiario, Fecha, Monto, Activo)
+			VALUES (@pTipoMovimientoInteresDiario,@pFecha, @pMonto, 1)
 		COMMIT TRANSACTION;
 	END TRY
 	BEGIN CATCH
@@ -77,15 +85,15 @@ GO
 CREATE PROCEDURE FASP_InsertarMovimientoSaldoNoAplicado
 	@pFecha DATE = NULL,
 	@pAmortizacion INT = 0,
-	@pIntereses INT = 0,
+	@pIntereses INT = 0
 
 AS
 BEGIN
 	BEGIN TRY
 		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 		BEGIN TRANSACTION;
-			INSERT INTO dbo.MovimientoSaldoNoAplicado(Fecha, Amortizacion, Interes)
-			VALUES (@pFecha, @pAmortizacion, @pInteres)
+			INSERT INTO dbo.MovimientoSaldoNoAplicado(Fecha, Amortizacion, Intereses, Activo)
+			VALUES (@pFecha, @pAmortizacion, @pIntereses, 1)
 		COMMIT TRANSACTION;
 	END TRY
 	BEGIN CATCH
