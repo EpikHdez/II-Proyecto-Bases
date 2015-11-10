@@ -1,15 +1,17 @@
 USE FondoAhorrosDB;
 
 CREATE PROCEDURE FASP_InsertarDeudores
+	@pCedula INT = 0,
 	@pNombre VARCHAR(100) = NULL,
+	@pActivo BIT = 0
 
 AS
 BEGIN
 	BEGIN TRY
 		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 		BEGIN TRANSACTION;
-			INSERT INTO dbo.Deudores(Nombre)
-			VALUES (@pNombre)
+			INSERT INTO dbo.Deudores(Cedula, Nombre,Activo)
+			VALUES (@pCedula, @pNombre, @pActivo)
 		COMMIT TRANSACTION;
 
 		RETURN SCOPE_IDENTITY();
@@ -28,7 +30,7 @@ CREATE PROCEDURE FASP_InsertarPrestamo
 	@pMontoOriginal INT = 0,
 	@pCuota INT = 0,
 	@pPlazoRestante INT = 0,
-	@pDiaCorte = 0,
+	@pDiaCorte DATE = 0
 
 AS
 BEGIN
