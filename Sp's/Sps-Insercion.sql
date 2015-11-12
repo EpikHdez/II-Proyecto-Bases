@@ -60,7 +60,10 @@ CREATE PROCEDURE FASP_InsertarMovimientoInteresDiario
 	@pTipoMovimientoInteresDiario INT,
 	@pPrestamo INT, 
 	@pFecha DATE = NULL,
-	@pMonto FLOAT = 0
+	@pMonto FLOAT = 0,
+	@pPostIn VARCHAR(100),
+	@pPostBy VARCHAR(100),
+	@pPostDate DATE
 
 AS
 BEGIN
@@ -84,7 +87,10 @@ CREATE PROCEDURE FASP_InsertarMovimientoSaldoNoAplicado
 	@pPrestamo INT,
 	@pFecha DATE = NULL,
 	@pAmortizacion FLOAT = 0,
-	@pIntereses FLOAT = 0
+	@pIntereses FLOAT = 0,
+	@pPostIn VARCHAR(100),
+	@pPostBy VARCHAR(100),
+	@pPostDate DATE
 
 AS
 BEGIN
@@ -108,7 +114,10 @@ CREATE PROCEDURE FASP_InsertarMovimientoSaldoAplicado
 	@pPrestamo INT,
 	@pFecha DATE = NULL,
 	@pAmortizacion FLOAT = 0,
-	@pInteres FLOAT = 0
+	@pInteres FLOAT = 0,
+	@pPostIn VARCHAR(100),
+	@pPostBy VARCHAR(100),
+	@pPostDate DATE
 
 AS
 BEGIN

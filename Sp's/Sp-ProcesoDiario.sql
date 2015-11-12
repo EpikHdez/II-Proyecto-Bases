@@ -17,3 +17,7 @@ BEGIN
 		SET InteresAcumuladoMensual = InteresAcumuladoMensual + dbo.FAFN_CalcularInteres(PR.SaldoNoAplicado, PR.FK_TipoPrestamo.Tasa)
 	FROM Prestamos PR
 	WHERE PR.SaldoNoAplicado > 0
+
+
+END
+GO

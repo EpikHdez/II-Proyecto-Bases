@@ -31,7 +31,8 @@ CREATE PROCEDURE FASP_ActualizarPrestamos
 	@pSaldoNoAplicado INT = 0,
 	@pSaldoAplicado INT = 0,
 	@pInteresAcumulado INT = 0,
-	@pDiaCorte INT = 0
+	@pDiaCorte INT = 0,
+	@pActivo BIT = 1
 	
 AS
 BEGIN
