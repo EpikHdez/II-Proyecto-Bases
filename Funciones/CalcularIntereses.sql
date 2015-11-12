@@ -9,3 +9,7 @@ BEGIN
 
 	@InteresDiario = @pSaldoNoAplicado * (@pTasaInteres / 360);
 
+RETURN @InteresDiario
+END
+
+
