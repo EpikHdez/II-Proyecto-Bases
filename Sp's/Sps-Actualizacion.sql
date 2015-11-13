@@ -1,8 +1,9 @@
 USE FondoAhorrosDB;
+GO
 
 CREATE PROCEDURE FASP_ActualizarDeudores
 	@pID INT = 0,
-	@pNombre VARCHAR(100) = NULL,
+	@pNombre VARCHAR(100) = NULL
 
 AS
 BEGIN
@@ -44,8 +45,8 @@ BEGIN
 			Cuota = @pCuota,
 			PlazoRestante = @pPlazoRestante,
 			SaldoNoAplicado = @pSaldoNoAplicado,
-			SaldoAplicado = @pSaldoAplicado
-			InteresAcumuladoMensual = @pInteresAcumuladoMensual,
+			SaldoAplicado = @pSaldoAplicado,
+			InteresAcumuladoMensual = @pInteresAcumulado,
 			DiaCorte = @pDiaCorte
 			WHERE ID = @pID;
 		COMMIT TRANSACTION
@@ -113,7 +114,7 @@ GO
 
 CREATE PROCEDURE FASP_ActualizarMovimientoSaldoAplicado
 	@pID INT = 0,
-	@pFecha DATE = 0,
+	@pFecha DATE,
 	@pAmortizacion INT = 0,
 	@pInteres INT = 0
 
@@ -125,9 +126,10 @@ BEGIN
 			UPDATE dbo.MovimientoSaldoAplicado
 			SET Fecha = @pFecha,
 			Amortizacion = @pAmortizacion,
-			Interes = @pInteres
+			Intereses = @pInteres
 			WHERE ID = @pID;
 		COMMIT TRANSACTION
+	END TRY
 	BEGIN CATCH
 		IF @@TRANCOUNT > 0
 			ROLLBACK;
@@ -173,8 +175,7 @@ BEGIN
 			UPDATE dbo.TipoPrestamo
 			SET Nombre = @pNombre,
 			Tasa = @pTasa,
-			Plazo = @pPlazo,
-			Periodo = @pPeriodo
+			Plazo = @pPlazo
 			WHERE ID = @pID;
 		COMMIT TRANSACTION
 	END TRY

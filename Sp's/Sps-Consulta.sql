@@ -1,4 +1,5 @@
-USE FondoAhorrosDB
+USE FondoAhorrosDB;
+GO
 
 CREATE PROCEDURE FASP_ConsultarDeudores
 AS
@@ -20,7 +21,7 @@ GO
 CREATE PROCEDURE FASP_ConsultarTipoPrestamo
 AS
 BEGIN
-	SELECT T.Nombre, T.Tasa, T.Plazo, T.Periodo
+	SELECT T.Nombre, T.Tasa, T.Plazo
 	FROM TipoPrestamo T;
 END
 GO
