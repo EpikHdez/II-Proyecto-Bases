@@ -1,15 +1,15 @@
 USE FondoAhorrosDB;
 GO
 
-CREATE FUNCTION FAFN_CalcularInteres(@pSaldoNoAplicado INT, @pTasaInteres INT)
+CREATE FUNCTION FAFN_CalcularInteres(@pSaldoNoAplicado FLOAT, @pTasaInteres FLOAT)
 RETURNS FLOAT
 AS
 BEGIN
-	DECLARE @InteresDiario FLOAT = 0;
+	DECLARE @InteresDiario FLOAT = 0.0;
 
-	@InteresDiario = @pSaldoNoAplicado * (@pTasaInteres / 360);
+	SET @InteresDiario = (@pSaldoNoAplicado * (@pTasaInteres / 360));
 
-RETURN @InteresDiario
+	RETURN @InteresDiario;
 END
 
 
