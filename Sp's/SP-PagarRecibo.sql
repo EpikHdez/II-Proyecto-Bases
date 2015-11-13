@@ -4,17 +4,18 @@ GO
 CREATE PROCEDURE FASP_PagarRecibo
 
 AS
-
-	Create table #TopRecibo(ID int,
+begin
+	begin try
+		Create table #TopRecibo(ID int,
 								[FK-MovSaldoNoApl] int,
 								Estado bit)
 	
 		Insert into #TopRecibo(ID,
-							   [FK-MovSaldoNoApl],
-							   Estado)
+								[FK-MovSaldoNoApl],
+								Estado)
 		Select top 1 R.ID,
-					 R.[FK-MovSaldoNoApl],
-					 R.Estado
+						R.[FK-MovSaldoNoApl],
+						R.Estado
 	
 		From Recibo R
 		Inner join MovSaldoNoApl MSNA on MSNA.ID=R.[FK-MovSaldoNoApl]
@@ -48,3 +49,13 @@ AS
 			Where Recibo.ID = TR.ID
 
 		Commit transaction
+
+		return 1;
+	end try
+	begin catch
+		if @@trancount > 0
+			rollback;
+
+		return @@error * -1;
+	end catch
+end
