@@ -1,0 +1,15 @@
+USE FondoAhorrosDB;
+GO
+
+CREATE FUNCTION FA_TrackDeudor(@name VARCHAR(100))
+RETURNS INT
+AS
+BEGIN
+	DECLARE @ID INT;
+
+	SELECT @ID = ID
+	FROM dbo.Deudores
+	WHERE Nombre = @name;
+
+	RETURN @ID;
+END;

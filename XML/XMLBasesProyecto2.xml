@@ -110,12 +110,6 @@
 		<TPrestamo Nombre="Largo Plazo" TasaPorcentual="0.55" Plazo="15" ID="5"/>
 		<TPrestamo Nombre="Plazo Extendido" TasaPorcentual="0.27" Plazo="30" ID="6"/>
 	</TipPrestamo>
-	<MedioPago>
-		<Medio Tipo="Pago Electronico"/>
-		<Medio Tipo="Cheque"/>
-		<Medio Tipo="Efectivo"/>
-		<Medio Tipo="Tarjeta de Credito"/>
-	</MedioPago>
 	<Prestamos>
         <Prestamo MontoOriginal="4918904" Cuota="664019" DiaCorte="25" DiaPaga="14" FechaInicio="10-15-2013" NombrePersona="Maciel Perez Perez" IDTipPrestamo="1"/>
         <Prestamo MontoOriginal="4844327" Cuota="653952" DiaCorte="22" DiaPaga="16" FechaInicio="04-16-2005" NombrePersona="Aaron Mendez Ugalde" IDTipPrestamo="1"/>
