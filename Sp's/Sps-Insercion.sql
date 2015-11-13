@@ -32,7 +32,8 @@ CREATE PROCEDURE FASP_InsertarPrestamo
 	@pMontoOriginal FLOAT = 0,
 	@pCuota FLOAT = 0,
 	@pPlazoRestante INT = 0,
-	@pDiaCorte INT = 0
+	@pDiaCorte INT = 0,
+	@pFechaInicio DATE
 
 AS
 BEGIN
@@ -40,9 +41,9 @@ BEGIN
 		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 		BEGIN TRANSACTION;
 			INSERT INTO dbo.Prestamos(FK_Deudor, FK_TipoPrestamo, MontoOriginal, Cuota, PlazoRestante, SaldoNoAplicado, SaldoAplicado, InteresAcumuladoMensual, 
-			DiaCorte, Activo)
+			DiaCorte, FechaInicio, Activo)
 			VALUES (@pDeudor, @pTipoPrestamo, @pMontoOriginal,
-			@pCuota, @pPlazoRestante, 0, 0, 0, @pDiaCorte, 1)
+			@pCuota, @pPlazoRestante, 0, 0, 0, @pDiaCorte, @pFechaInicio, 1)
 		COMMIT TRANSACTION;
 
 		RETURN SCOPE_IDENTITY();
@@ -70,8 +71,9 @@ BEGIN
 	BEGIN TRY
 		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 		BEGIN TRANSACTION;
-			INSERT INTO dbo.MovimientoInteresDiario(FK_TipoMovimientoInteresDiario, FK_Prestamo,Fecha, Monto, Activo)
-			VALUES (@pTipoMovimientoInteresDiario, @pPrestamo,@pFecha, @pMonto, 1)
+			INSERT INTO dbo.MovimientoInteresDiario(FK_TipoMovimientoInteresDiario, FK_Prestamo,Fecha, Monto, Activo, PostDate, PostIn,
+			PostBy)
+			VALUES (@pTipoMovimientoInteresDiario, @pPrestamo,@pFecha, @pMonto, 1, @pPostDate, @pPostIn, @pPostBy)
 		COMMIT TRANSACTION;
 	END TRY
 	BEGIN CATCH
@@ -97,8 +99,9 @@ BEGIN
 	BEGIN TRY
 		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 		BEGIN TRANSACTION;
-			INSERT INTO dbo.MovimientoSaldoNoAplicado(FK_Prestamo,Fecha, Amortizacion, Intereses, Activo)
-			VALUES (@pPrestamo, @pFecha, @pAmortizacion, @pIntereses, 1)
+			INSERT INTO dbo.MovimientoSaldoNoAplicado(FK_Prestamo,Fecha, Amortizacion, Intereses, Activo, PostDate, PostIn,
+			PostBy)
+			VALUES (@pPrestamo, @pFecha, @pAmortizacion, @pIntereses, 1, @pPostDate, @pPostIn, @pPostBy)
 		COMMIT TRANSACTION;
 	END TRY
 	BEGIN CATCH
@@ -124,8 +127,9 @@ BEGIN
 	BEGIN TRY
 		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 		BEGIN TRANSACTION;
-			INSERT INTO dbo.MovimientoSaldoAplicado(FK_Prestamo,Fecha, Amortizacion, Intereses, Activo)
-			VALUES(@pPrestamo, @pFecha, @pAmortizacion, @pInteres, 1)
+			INSERT INTO dbo.MovimientoSaldoAplicado(FK_Prestamo,Fecha, Amortizacion, Intereses, Activo, PostDate, PostIn,
+			PostBy)
+			VALUES(@pPrestamo, @pFecha, @pAmortizacion, @pInteres, 1, @pPostDate, @pPostIn, @pPostBy)
 		COMMIT TRANSACTION;
 	END TRY
 	BEGIN CATCH

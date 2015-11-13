@@ -1,5 +1,8 @@
+USE FondoAhorrosDB;
+GO
+
 CREATE PROCEDURE CCSP_CargarDatos
-	@xmlPath NVARCHAR(300)
+	
 AS
 BEGIN
 	BEGIN TRY
@@ -21,7 +24,7 @@ BEGIN
 		EXEC dbo.sp_executesql
 			@command = @command,
 			@params = N'@xmlDocument xml output',
-			@xmlDocument = @xmlDocument output
+			@document = @document output
 
 		--Lectura e inserción de datos en las respectivas variables tablas
 		INSERT INTO @deudoresT (Cedula, NombreCompleto)
@@ -37,7 +40,7 @@ BEGIN
 
 		INSERT INTO @medioPagoT (Nombre)
 		SELECT MedioPago.value('@Tipo', 'VARCHAR(100)')
-		FROM @document.node('MedioPago/Medio') AS MP(MedioPago);
+		FROM @document.nodes('MedioPago/Medio') AS MP(MedioPago);
 
 		INSERT INTO @prestamosT (FK_TipoPrestamo, Deudor, MontoOriginal, Cuota, DiaCorte, DiaPago, FechaInicio)
 		SELECT Prestamo.value('@IDTipPrestamo', 'INT'),
@@ -50,7 +53,7 @@ BEGIN
 		FROM @document.nodes('Prestamos/Prestamo') AS PR(Prestamo);
 
 		--Pasar los valores de las variables tablas a las tablas reales de la BD mediate transacción
-		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITED;
+		SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 		BEGIN TRANSACTION
 			INSERT INTO dbo.Deudores (Cedula, Nombre)
 			SELECT DE.Cedula, DE.NombreCompleto
