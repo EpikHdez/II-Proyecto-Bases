@@ -8,6 +8,7 @@ BEGIN
 	BEGIN TRY
 		DECLARE @command NVARCHAR(500);
 		DECLARE @document XML;
+		DECLARE @xmlPath NVARCHAR(300) = 'C:\XMLBasesProyecto2.xml';
 
 		--Variables tablas para almacenar los datos leidos del documento xml
 		DECLARE @deudoresT TABLE (ID INT IDENTITY(1, 1), Cedula INT, NombreCompleto VARCHAR(100));

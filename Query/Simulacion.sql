@@ -12,11 +12,10 @@ DECLARE @FechaFinal DATE;
 SELECT @FechaInicial = MIN(P.FechaInicio)
 FROM Prestamos P
 
-SET @FechaFinal = DATEADD(DAY, @Dias, @FechaInicial)
+SET @FechaFinal = DATEADD(DAY, 1, @FechaInicial)
 WHILE @FechaInicial < @FechaFinal
 BEGIN
-EXEC FASP_CalcularInteresDiario(@FechaFinal)
+EXEC FASP_CalcularInteresDiario;
 SET @FechaInicial = DATEADD(DAY, 1, @FechaInicial)
 END
-GO
 
